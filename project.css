@@ -1,0 +1,122 @@
+/* login page style*/
+h2.loginhead {text-align: center;}
+
+form.signup_loginform input[type="text"], input[type="password"], input[type="submit"], input[type="email"], input[type="date"]
+             {width: 300px; display:block; margin: auto;
+   	          border-radius:5px; padding: 12px 20px;
+   	          border-bottom: 2px solid #F1F1F1;
+             }
+
+form.signup_loginform input[type="submit"]
+             {display: block; background-color: #EAEA12;
+             	cursor: pointer; color: black;
+                width: 350px; margin: auto;}
+form.signup_loginform input[type="submit"]:hover{background-color:#FFC300;}
+/*signup style*/
+.signup_style input[type="text"], input[id="pass"], input[type="submit"], input[type="email"],input[type="button"],input[type="number"]
+             {width: 300px;display: inline-block;
+               margin: 5px auto;
+   	          border-radius:5px; padding: 12px 20px;
+   	          border-bottom: 2px solid #F1F1F1;
+             }
+.mid{
+  border-radius:5px; padding: 12px 20px;
+  background-color: lightblue;
+  border-bottom: 2px solid #F1F1F1;
+  width: 700px;
+  margin-left: 23%;margin-right: 23%;
+}
+form.signup_style input[type="submit"],input[type="button"]
+             {display: block; background-color: #EAEA12;
+             	cursor: pointer; color: black;
+                width: 150px; margin: auto;;
+              }
+.signDiv{
+  display: inline-block;
+}
+.fNSpan{
+  color: red;
+  padding:5px;
+  height:15px;
+  width: 300px;;
+  display: inline-block;
+}
+input:focus{
+background-color: lightyellow;
+}
+
+/* button style*/
+
+#cancelbtn {  /*Cancel btn on sign up page div set*/
+	display: block; background-color: #EAEA12;
+             	cursor: pointer; color: black;
+                width: 150px; margin: auto;
+}
+
+.divheader img  {
+        width:70px;height:70px;
+        position: relative;
+        border: 0.1px ridge #AB0EFE ;
+        display:block; float:left; margin-right:50px;
+   }
+.divheader a{
+	float:right; text-decoration:none;  margin-top:24px;margin-right:12px;
+}
+
+.divheader{	margin: auto;
+				width:100%; height:70px;
+                background-color: #531790;
+                 position:relative;      }
+.divheader h1{ color: #C1FCF7;
+		       font-size: 40px;
+
+		    }
+
+.divheader h2{color: #C70039  ;
+		       font-size: 15px;}
+
+.menu{ display:inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+.menu ul{
+ 	    border-radius: 5px;
+ 		background-color: black;
+        list-style:none;
+         }
+
+.menu ul li{
+			display: inline-block;
+            padding: 20px 20px;
+            border-radius:1px;
+            text-align:center;
+           }
+    .menu ul li a
+           {
+           	text-decoration: none;
+           	padding: 12px 8px;
+           	color: #FFFFFF;
+           }
+
+     .menu ul li:hover {
+                 background-color: #F0834D; /* whole link block bg */
+                   }
+.active {background-color:#F0834D;}
+.menuHead{
+
+    float: left;
+  	margin: auto;
+    color: white;
+    background-color: #9643FD;
+    position: absolute;
+    left: 0;
+    border-top: 80px solid white;
+    border-left: 80px solid  #9643FD;
+    width: 25%;
+}
+p.footSignUp
+{width: 300px; display:block; margin: auto;
+ border-radius:5px; padding: 12px 20px;
+ border-bottom: 2px solid #F1F1F1;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+</head>
+
+<body>
+  <div class="divheader"><img src="images/logo.png">
+  <h1>lorem epsum</h1>
+  <h2><marquee direction="left">gauuepuui eooeue uyeuuei euueu only</marquee></h2>
+</div>
+<br>
+<div class="mid">
+
+  <img  src="images/signup.jpg" style="width:20%; margin-left:39% ">
+    <form class="signup_style" action="" method="POST" onsubmit="return validation()">
+      <div class="signDiv">
+        <input type="text" name="fname" id="fN" placeholder="first name"  autofocus onblur= "validateFname()"><br>
+        <span class="fNSpan" id="spanId1"></span>
+      </div>
+
+    <div class="signDiv">
+      <input type="text" name="lname" id="LN" placeholder="last name" onblur= "validateLname()"><br>
+      <span class="fNSpan" id="spanId2"></span>
+    </div>
+
+<div class="signDiv">
+    <input type="text" name="username" id="user" placeholder="username" onblur="validateUserName()" ><br>
+    <span class="fNSpan" id="spanId4"></span>
+ </div>
+
+ <div class="signDiv">
+     <input type="password" id="pass" name="password" placeholder="password" onblur="validatePassword()"><br>
+     <span class="fNSpan" id="spanId5"></span>
+   </div>
+
+<div class="signDiv">
+    <input type="text" name="gender" placeholder="gender" > <br>
+    <span class="fNSpan"></span>
+</div>
+
+<div class="signDiv">
+    <input type="number" name="Contact" id="phNo" placeholder="contact no." onblur="validatePhone()"><br>
+    <span class="fNSpan" id="spanId3"></span>
+  </div>
+
+<div class="signDiv">
+    <input type="text" name="userid" placeholder="user id" > <br>
+    <span class="fNSpan"></span>
+  </div>
+
+<div class="signDiv">
+    <input type="text" name="status" value="Active" title="status" readonly><br>
+    <span class="fNSpan"></span>
+  </div>
+
+
+<div >
+    <input type="submit" name="submitbtn" value="Sign Up">
+    <div id="cancelbtn">
+        <a style="text-decoration:none;" href="login.php"><input type="button" name="submitbtn" value="Cancel" ></a>
+    </div>
+  </div>
+</form>
+<p class="footSignUp">Already have an account?<br>Click <a href="#"><b>here</b></a> to log-in</p>
+
+ </div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
